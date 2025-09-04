@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cartoon Flip Cards 🎨</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="cards-body">
+    <header>
+      <div class="title">Cartoon Flip Cards – Cute Dev Series 💫</div>
+      <div class="controls">
+        <button id="autoplayBtn">▶ Auto Flip</button>
+        <button id="shuffleBtn">🔀 Shuffle Colors</button>
+      </div>
+    </header>
+
+    <main class="grid" id="grid">
+      <!-- Cards (you can duplicate & edit emojis/text quickly) -->
+      <div class="card" data-colors="#ffd166,#70e1ff">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🐱‍💻</div>
+            <div class="label">Coder Cat</div>
+            <div class="desc">Loves typing and tuna.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">💡</div>
+            <div class="label">Skills</div>
+            <div class="badges">
+              <span class="badge">HTML</span> <span class="badge">CSS</span>
+              <span class="badge">JS</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#8ec5fc,#e0c3fc">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🤖</div>
+            <div class="label">Dev Bot</div>
+            <div class="desc">Compiles emotions at runtime.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">⚙️</div>
+            <div class="label">Toolkit</div>
+            <div class="badges">
+              <span class="badge">APIs</span> <span class="badge">Node</span>
+              <span class="badge">CLI</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#ff9a9e,#fecfef">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🦸‍♀️</div>
+            <div class="label">Bug Slayer</div>
+            <div class="desc">Saves the sprint every time.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">🪲</div>
+            <div class="label">Weakness</div>
+            <div class="badges">
+              <span class="badge">Semicolons</span>
+              <span class="badge">Race cond.</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#f6d365,#fda085">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🧙‍♂️</div>
+            <div class="label">CSS Wizard</div>
+            <div class="desc">Conjures layouts with pixels.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">✨</div>
+            <div class="label">Spells</div>
+            <div class="badges">
+              <span class="badge">Grid</span> <span class="badge">Flex</span>
+              <span class="badge">Keyframes</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#a1ffce,#faffd1">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🧁</div>
+            <div class="label">Snack Dev</div>
+            <div class="desc">Debugs with desserts.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">🍫</div>
+            <div class="label">Inventory</div>
+            <div class="badges">
+              <span class="badge">Coffee</span> <span class="badge">Choco</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#fbc2eb,#a6c1ee">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🧑‍🚀</div>
+            <div class="label">Space Dev</div>
+            <div class="desc">Deploys to the moon.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">🚀</div>
+            <div class="label">Launch</div>
+            <div class="badges">
+              <span class="badge">CI/CD</span> <span class="badge">K8s</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#fddb92,#d1fdff">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🦄</div>
+            <div class="label">UI Unicorn</div>
+            <div class="desc">Brings sparkle to screens.</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">🎨</div>
+            <div class="label">Palette</div>
+            <div class="badges">
+              <span class="badge">Pastels</span>
+              <span class="badge">Glass</span>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="card" data-colors="#84fab0,#8fd3f4">
+        <div class="card-inner">
+          <div class="blob"></div>
+          <section class="face front">
+            <div class="emoji">🧠</div>
+            <div class="label">Logic Lama</div>
+            <div class="desc">If (snacks) return joy;</div>
+          </section>
+          <section class="face back">
+            <div class="emoji">📦</div>
+            <div class="label">Stacks</div>
+            <div class="badges">
+              <span class="badge">React</span> <span class="badge">Next</span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
